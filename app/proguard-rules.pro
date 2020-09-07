@@ -56,16 +56,16 @@
 
 -keepclasseswithmembers class * { @com.activeandroid.annotation.Column <fields>; }
 -keepattributes InnerClasses
--keep class com.beingdev.magicprint.prodcutscategory.Bags$* { *; }
--keep class com.beingdev.magicprint.prodcutscategory.Calendars$* { *; }
--keep class com.beingdev.magicprint.prodcutscategory.Cards$* { *; }
--keep class com.beingdev.magicprint.prodcutscategory.Keychains$* { *; }
--keep class com.beingdev.magicprint.prodcutscategory.Stationary$* { *; }
--keep class com.beingdev.magicprint.prodcutscategory.Tshirts$* { *; }
+-keep class com.mibtech.nbcustomer.prodcutscategory.Bags$* { *; }
+-keep class com.mibtech.nbcustomer.prodcutscategory.Calendars$* { *; }
+-keep class com.mibtech.nbcustomer.prodcutscategory.Cards$* { *; }
+-keep class com.mibtech.nbcustomer.prodcutscategory.Keychains$* { *; }
+-keep class com.mibtech.nbcustomer.prodcutscategory.Stationary$* { *; }
+-keep class com.mibtech.nbcustomer.prodcutscategory.Tshirts$* { *; }
 
--keep class com.beingdev.magicprint.prodcutscategory.Bags** { *; }
--keep class com.beingdev.magicprint.prodcutscategory.Calendars** { *; }
--keep class com.beingdev.magicprint.prodcutscategory.Cards** { *; }
--keep class com.beingdev.magicprint.prodcutscategory.Keychains** { *; }
--keep class com.beingdev.magicprint.prodcutscategory.Stationary** { *; }
--keep class com.beingdev.magicprint.prodcutscategory.Tshirts** { *; }
+-keep class com.mibtech.nbcustomer.prodcutscategory.Bags** { *; }
+-keep class com.mibtech.nbcustomer.prodcutscategory.Calendars** { *; }
+-keep class com.mibtech.nbcustomer.prodcutscategory.Cards** { *; }
+-keep class com.mibtech.nbcustomer.prodcutscategory.Keychains** { *; }
+-keep class com.mibtech.nbcustomer.prodcutscategory.Stationary** { *; }
+-keep class com.mibtech.nbcustomer.prodcutscategory.Tshirts** { *; }
